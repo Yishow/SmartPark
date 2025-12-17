@@ -2,6 +2,7 @@ import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
+// To deploy to https://Yishow.github.io/SmartPark/, set base to '/SmartPark/'.
 // 若要部署到 https://Yishow.github.io/SmartPark/，請設定 base 為 '/SmartPark/'.
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
