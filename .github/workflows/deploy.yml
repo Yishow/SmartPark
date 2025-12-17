@@ -1,9 +1,9 @@
 name: Deploy to GitHub Pages
 
-# Trigger on pushes to main and manual dispatch
+# Trigger on pushes to gh-pages-deploy and manual dispatch
 on:
   push:
-    branches: [ main ]
+    branches: [ gh-pages-deploy ]
   workflow_dispatch:
 
 permissions:
